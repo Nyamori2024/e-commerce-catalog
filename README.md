@@ -69,8 +69,8 @@ npm run dev
 http://localhost:5173
 
 ### Deployment
-The application is deployed on [Vercel/Replit].
-You can access it here: Deployed App URL.
+The application is deployed on [Vercel].
+You can access it here: https://e-commerce-catalog-eight.vercel.app/.
 
 ## Running the App Locally
 To run the app locally:
