@@ -78,5 +78,22 @@ To run the app locally:
 1. Ensure you have **Node.js** installed (version 16 or higher).
 2. Follow the installation instructions above.
 
+### Testing
+To run tests, use:
+```bash
+npm run test
+
+### Folder Structure
+```bash
+src/
+├── components/       # Reusable components (e.g., ProductCard).
+├── pages/            # Page components (e.g., CatalogPage).
+├── redux/            # Redux store, slices, and types.
+├── App.tsx           # Root component.
+├── main.tsx          # Application entry point.
+├── styles/           # Global styles and Tailwind configuration.
+└── types/            # TypeScript type definitions.
+
+
 
 
