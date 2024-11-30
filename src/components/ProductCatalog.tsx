@@ -55,7 +55,7 @@ const ProductCatalog = () => {
         placeholder="Search products..."
         value={searchQuery}
         onChange={(e) => dispatch(setSearchQuery(e.target.value))} // Update search query in Redux state
-        className="p-2 border border-gray-300 rounded mb-4"
+        className="p-2 border border-gray-300 rounded mb-4 bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
 
       {/* Product grid */}
